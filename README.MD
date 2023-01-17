@@ -50,5 +50,6 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 Esse projeto está sob a licença MIT.
 
 ---
+Desenvolvido por <a hreft="https://github.com/Gabriel-Santos01" target="blank">Gabriel Santos</a>
 
 Design Feito com ♥ by Rocketseat
