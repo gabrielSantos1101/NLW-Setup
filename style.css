@@ -1,0 +1,55 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+
+  font-family: 'Inter';
+  font-style: normal;
+}
+
+body {
+  background-color: #09090a;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-inline: 12rem;
+  padding-top: 11rem;
+}
+
+header #habits {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-weight: 800;
+  font-size: 2.4rem;
+  line-height: 125%;
+}
+
+header button {
+  display: flex;
+  border: 1px solid #8b5cf6;
+  border-radius: 8px;
+  background: #09090a;
+
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 125%;
+
+  padding: 1.6rem;
+  gap: 1.4rem;
+  align-items: center;
+}
+
+/* #tsparticles {
+  opacity: 0.3;
+} */
