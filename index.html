@@ -19,7 +19,7 @@
   </head>
   <body>
     <header>
-      <div id="habits">
+      <div id="logo">
         <svg
           width="116"
           height="16"
@@ -85,7 +85,7 @@
         <h1>habits</h1>
       </div>
 
-      <button type="submit" class="teste">
+      <button type="submit" form="habits">
         <svg
           width="20"
           height="20"
@@ -112,11 +112,105 @@
       </button>
     </header>
 
-    <main></main>
+    <main>
+      <form id="habits">
+        <div class="habits">
+          <div class="habit">
+            <img
+              class="icon"
+              src="https://cdn-icons-png.flaticon.com/512/4357/4357645.png"
+              alt="icone de alguem correndo"
+            />
+          </div>
+          <div class="habit">
+            <img
+              class="icon"
+              src="https://cdn-icons-png.flaticon.com/512/2447/2447774.png"
+              alt="icone water"
+            />
+          </div>
+          <div class="habit">
+            <img
+              class="icon"
+              src="https://cdn-icons-png.flaticon.com/512/1845/1845861.png"
+              alt="Icone of strong"
+            />
+          </div>
+          <div class="habit">
+            <img
+              class="icon"
+              src="https://cdn-icons-png.flaticon.com/512/3094/3094837.png"
+              alt="icone of sleep time"
+            />
+          </div>
+          <div class="habit">
+            <img
+              class="icon"
+              src="https://cdn-icons-png.flaticon.com/512/616/616554.png"
+              alt="dog icon"
+            />
+          </div>
+          <div class="habit">
+            <img
+              class="icon"
+              src="https://cdn-icons-png.flaticon.com/512/2424/2424848.png"
+              alt="dinner icon"
+            />
+          </div>
+        </div>
+        <div id="days">
+          <div class="day">
+            <h3>17/01</h3>
+            <input type="checkbox" checked />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+          </div>
+          <div class="day">
+            <h3>18/01</h3>
+            <input type="checkbox" />
+            <input type="checkbox" checked />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" checked />
+          </div>
+          <div class="day">
+            <h3>19/01</h3>
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" checked />
+            <input type="checkbox" checked />
+            <input type="checkbox" />
+            <input type="checkbox" />
+          </div>
+          <div class="day">
+            <h3>20/01</h3>
+            <input type="checkbox" />
+            <input type="checkbox" checked />
+            <input type="checkbox" />
+            <input type="checkbox" checked />
+            <input type="checkbox" />
+            <input type="checkbox" />
+          </div>
+          <div class="day">
+            <h3>21/01</h3>
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" checked />
+            <input type="checkbox" />
+            <input type="checkbox" checked />
+            <input type="checkbox" />
+          </div>
+        </div>
+      </form>
+    </main>
     <div id="tsparticles"></div>
   </body>
   <script src="./app.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.0.6/tsparticles.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-stars@2/tsparticles.preset.stars.bundle.min.js"></script>
-  <script src="./particles.js"></script>
+  <script src="./assets/particles.js"></script>
 </html>

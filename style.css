@@ -27,7 +27,7 @@ header {
   padding-top: 11rem;
 }
 
-header #habits {
+header #logo {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -49,6 +49,65 @@ header button {
   padding: 1.6rem;
   gap: 1.4rem;
   align-items: center;
+}
+
+form {
+  display: flex;
+  gap: 3.8rem;
+  margin-left: 12rem;
+  margin-top: 3rem;
+}
+
+.habits {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 6.5rem;
+  height: 48.2rem;
+}
+
+.icon {
+  width: 3.8rem;
+}
+
+#days {
+  display: flex;
+  gap: 4.8rem;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+h3 {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 125%;
+
+  text-align: center;
+  color: #a1a1aa;
+
+  margin-bottom: 0.8rem;
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 64px;
+  height: 64px;
+
+  background: #18181b;
+  border: 2px solid #27272a;
+  border-radius: 8px;
+}
+
+input:checked {
+  background: #8b5cf6;
+  border: 2px solid #a78bfa;
 }
 
 #tsparticles {
