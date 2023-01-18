@@ -27,7 +27,7 @@ header {
   align-items: center;
   justify-content: space-between;
 
-  padding-inline: 12rem;
+  margin-inline: 12rem;
   padding-top: 11rem;
 }
 
@@ -44,13 +44,22 @@ header button {
   padding: 1.6rem;
   gap: 1.4rem;
   align-items: center;
+
+  transition: 200ms;
+}
+
+header button:hover {
+  scale: 1.03;
+  transition: 200ms;
 }
 
 form {
   display: flex;
   gap: 3.8rem;
+
   margin-left: 1.8rem;
   margin-top: 3rem;
+  padding-bottom: 1rem;
 
   overflow: scroll;
 }
@@ -61,7 +70,7 @@ form {
   justify-content: space-between;
   margin-top: 9.5rem;
   margin-left: 11rem;
-  height: 48.2rem;
+  /* height: 48.2rem; */
 }
 
 .icon {
