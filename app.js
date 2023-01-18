@@ -69,12 +69,10 @@ document.querySelector('#days').innerHTML =
   newDay(21) +
   newDay(22) +
   newDay(23) +
-  newDay(23) +
-  newDay(23) +
-  newDay(23) +
-  newDay(23) +
-  newDay(23) +
-  newDay(23) +
-  newDay(23) +
-  newDay(23) +
-  newDay(23)
+  newDay(24) +
+  newDay(25) +
+  newDay(26) +
+  newDay(27) +
+  newDay(28) +
+  newDay(29) +
+  newDay(30)

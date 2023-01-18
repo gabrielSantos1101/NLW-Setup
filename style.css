@@ -18,6 +18,10 @@ body {
   z-index: 1;
 }
 
+main {
+  display: flex;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -45,7 +49,7 @@ header button {
 form {
   display: flex;
   gap: 3.8rem;
-  margin-left: 12rem;
+  margin-left: 1.8rem;
   margin-top: 3rem;
 
   overflow: scroll;
@@ -55,7 +59,8 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 6.5rem;
+  margin-top: 9.5rem;
+  margin-left: 11rem;
   height: 48.2rem;
 }
 
