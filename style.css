@@ -70,7 +70,7 @@ form {
   justify-content: space-between;
   margin-top: 9.5rem;
   margin-left: 11rem;
-  /* height: 48.2rem; */
+  height: 48.2rem;
 }
 
 .icon {
@@ -127,22 +127,29 @@ input:checked {
 @media (max-width: 460px) {
   form {
     margin-left: 3rem;
-    width: 100%;
 
     margin-top: 20rem;
   }
 
   body {
-    width: 100vh;
     height: 60%;
   }
 
   header {
-    padding-inline: 3rem;
+    scale: 0.8;
     width: 100vh;
-
+    justify-content: center;
     position: fixed;
     top: -5rem;
+    left: -20.7rem;
+    gap: 6rem;
+
+    margin-inline: 0;
+  }
+
+  .habits {
+    margin-top: 26rem;
+    margin-left: 2.8rem;
   }
 }
 
