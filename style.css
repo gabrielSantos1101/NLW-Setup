@@ -27,15 +27,6 @@ header {
   padding-top: 11rem;
 }
 
-/* header #logo {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  font-weight: 800;
-  font-size: 2.4rem;
-  line-height: 125%;
-} */
-
 header button {
   display: flex;
   border: 1px solid #8b5cf6;
@@ -56,6 +47,8 @@ form {
   gap: 3.8rem;
   margin-left: 12rem;
   margin-top: 3rem;
+
+  overflow: scroll;
 }
 
 .habits {
@@ -113,4 +106,50 @@ input:checked {
 #tsparticles {
   position: absolute;
   z-index: -3;
+}
+
+/* ====================== reset ====================== */
+
+@media (max-width: 460px) {
+  form {
+    margin-left: 3rem;
+    width: 100%;
+
+    margin-top: 20rem;
+  }
+
+  body {
+    width: 100vh;
+    height: 60%;
+  }
+
+  header {
+    padding-inline: 3rem;
+    width: 100vh;
+
+    position: fixed;
+    top: -5rem;
+  }
+}
+
+/* ====================== Scroll bar ====================== */
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #000;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #000;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #8b5cf6;
+  border-radius: 20px;
+  border: 2px solid #8b5cf6;
 }
