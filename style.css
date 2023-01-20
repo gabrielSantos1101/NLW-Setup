@@ -57,7 +57,7 @@ form {
   display: flex;
   gap: 3.8rem;
 
-  margin-left: 1.8rem;
+  margin-left: 3rem;
   margin-top: 3rem;
   padding-bottom: 1rem;
 
@@ -65,10 +65,14 @@ form {
 }
 
 .habits {
+  display: none;
+}
+
+#outHabits {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 6.5rem;
+  margin-top: 9.6rem;
   margin-left: 11rem;
   height: 48.2rem;
 }

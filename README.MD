@@ -35,7 +35,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 📚 Bibliotecas
 
-- <a href="https://github.com/marcbruederlin/particles.js" target = "blank">Particles.js</a>
+- <a href="https://github.com/marcbruederlin/particles.js" target = "_blank">Particles.js</a>
+- <a href="https://maykbrito.github.io/libs/NLWSetup/documentation/NLWSetup.html" target="_blank">NLW setup</a>
 
 ## 💻 Projeto
 
