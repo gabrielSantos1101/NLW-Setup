@@ -151,7 +151,7 @@ input:checked {
     margin-inline: 0;
   }
 
-  .habits {
+  #outHabits {
     margin-top: 26rem;
     margin-left: 2.8rem;
   }
