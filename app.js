@@ -43,6 +43,8 @@ document.querySelector('#outHabits').innerHTML = `
 `
 
 // form.addEventListener('change', save)
+button.addEventListener('click', add)
+form.addEventListener('change', save)
 
 /* This function add all days in form */
 for (let index = '09'; index <= '30'; index++) {
