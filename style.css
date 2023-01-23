@@ -167,7 +167,7 @@ input:checked {
   form {
     margin-left: 3rem;
 
-    margin-top: 20rem;
+    margin-top: -1rem;
   }
 
   body {
@@ -178,7 +178,7 @@ input:checked {
     scale: 0.8;
     width: 100%;
     justify-content: space-between;
-    position: fixed;
+    position: relative;
     top: -5rem;
     gap: 6rem;
 
@@ -186,7 +186,7 @@ input:checked {
   }
 
   #outHabits {
-    margin-top: 26rem;
+    margin-top: 5.2rem;
     margin-left: 2.8rem;
   }
 }
