@@ -56,7 +56,7 @@ function add() {
   const dayExists = nlwSetup.dayExists(today)
 
   if (dayExists) {
-    alert('Esté dia já existe')
+    // alert('Esté dia já existe')
     return
   }
 
