@@ -31,8 +31,8 @@ document.querySelector('#outHabits').innerHTML = `
           <div class="habit" data-name="walk">
             <img
               class="icon"
-              src="https://cdn-icons-png.flaticon.com/512/616/616554.png"
-              alt="dog icon" />
+              src="https://cdn-icons-png.flaticon.com/512/644/644626.png"
+              alt="studi icon" />
           </div>
           <div class="habit" data-name="food">
             <img
