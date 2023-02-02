@@ -49,8 +49,9 @@ form.addEventListener('change', save)
 /* This function add all days in form */
 for (let index = '1'; index <= '30'; index++) {
   let numberFixed = index < 10 ? '0' + index : index;
-  let month = new Date().getMonth()
-  nlwSetup.addDay(`${numberFixed}/${month}`)
+  let month = new Date().getMonth() + 1
+  let monthFixed = month < 10 ? '0' + month : month;
+  nlwSetup.addDay(`${numberFixed}/${monthFixed}`)
 }
 
 function add() {
