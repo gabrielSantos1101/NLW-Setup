@@ -47,8 +47,9 @@ button.addEventListener('click', add)
 form.addEventListener('change', save)
 
 /* This function add all days in form */
-for (let index = '09'; index <= '30'; index++) {
-  nlwSetup.addDay(`${index}/02`)
+for (let index = '1'; index <= '30'; index++) {
+  let numberFixed = index < 10 ? '0' + index : index;
+  nlwSetup.addDay(`${numberFixed}/02`)
 }
 
 function add() {
