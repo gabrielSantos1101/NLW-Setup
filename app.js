@@ -1,9 +1,9 @@
-const form = document.querySelector('#habits')
+const form = document.querySelector("#habits")
 const nlwSetup = new NLWSetup(form)
-const button = document.querySelector('header button')
+const button = document.querySelector("header button")
 
 /* It make all habts out side the form */
-document.querySelector('#outHabits').innerHTML = `
+document.querySelector("#outHabits").innerHTML = `
 <div class="habit" data-name="run">
             <img
               class="icon"
@@ -43,34 +43,26 @@ document.querySelector('#outHabits').innerHTML = `
 `
 
 // form.addEventListener('change', save)
-button.addEventListener('click', add)
-form.addEventListener('change', save)
+button.addEventListener("click", clear)
+form.addEventListener("change", save)
 
 /* This function add all days in form */
-for (let index = '1'; index <= '30'; index++) {
-  let numberFixed = index < 10 ? '0' + index : index;
+for (let index = "1"; index <= "30"; index++) {
+  let numberFixed = index < 10 ? "0" + index : index
   let month = new Date().getMonth() + 1
-  let monthFixed = month < 10 ? '0' + month : month;
+  let monthFixed = month < 10 ? "0" + month : month
   nlwSetup.addDay(`${numberFixed}/${monthFixed}`)
 }
 
-function add() {
-  const today = new Date().toLocaleDateString('pt-br').slice(0, -5)
-  const dayExists = nlwSetup.dayExists(today)
-
-  if (dayExists) {
-    // alert('Esté dia já existe')
-    return
-  }
-
-  alert('Adicionado com sucesso')
-  nlwSetup.addDay(today)
+function clear() {
+  localStorage.clear()
+  location.reload()
 }
 
 function save() {
-  localStorage.setItem('NLWSetup@habits', JSON.stringify(nlwSetup.data))
+  localStorage.setItem("NLWSetup@habits", JSON.stringify(nlwSetup.data))
 }
 
-const data = JSON.parse(localStorage.getItem('NLWSetup@habits')) || {}
+const data = JSON.parse(localStorage.getItem("NLWSetup@habits")) || {}
 nlwSetup.setData(data)
 nlwSetup.load()

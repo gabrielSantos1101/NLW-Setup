@@ -9,7 +9,7 @@
   text-decoration: none;
   color: white;
 
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
 }
 
@@ -64,7 +64,6 @@ header button {
 header button:focus {
   width: 5rem;
   height: 5rem;
-  background-image: url(https://cdn-icons-png.flaticon.com/512/5735/5735786.png);
   background-position: center;
   background-size: cover;
 
@@ -85,6 +84,14 @@ header button:focus span {
 header button:hover {
   scale: 1.03;
   transition: 200ms;
+}
+
+header button:hover i,
+header button:hover span {
+  color: rgb(255, 95, 95);
+}
+header button:hover i {
+  animation: loop 1s ease-in-out;
 }
 
 form {
@@ -127,7 +134,7 @@ form {
 }
 
 .day div {
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
   font-style: normal;
   font-weight: 700;
   font-size: 1.5rem;
@@ -161,9 +168,16 @@ input:checked {
   z-index: -3;
 }
 
+/* ====================== animations ====================== */
+@keyframes loop {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /* ====================== reset ====================== */
 
-@media (max-width: 610px) {
+@media (max-width: 900px) {
   form {
     margin-left: 3rem;
 
